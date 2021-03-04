@@ -1,0 +1,65 @@
+body {
+    color: black;
+    overflow-x: hidden;
+}
+
+.hamburger {
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.kleuren {
+    transform: translateX(-400px);
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+.kieskleur {
+    border: solid black 2px;
+    padding: 5px 15px;
+    margin: 1px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    transition-property: all;
+    transition-delay: 1500ms;
+    transition-duration: 1000ms;
+}
+
+.aqua {
+    background-color: #00FFFF;
+}
+
+.lime {
+    background-color: #00FF00;
+}
+
+.geel {
+    background-color: #FFFF00;
+}
+
+.rood {
+    background-color: #FF0000;
+}
+
+.fuchsia {
+    background-color: #FF00FF;
+}
+
+.blauw {
+    background-color: #0000FF;
+}
+
+.menu .kleuren {
+    transform: translateX(50px);
+}
+
+.menu .kieskleur{
+    font-size: 25px;
+    padding: 15px 15px;
+    font-weight: bold;    
+}
